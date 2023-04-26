@@ -16,3 +16,42 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/java', function () {
+    return view('certificados.java');
+});
+
+Route::get('/js', function () {
+    return view('certificados.js');
+});
+
+Route::get('/php', function () {
+    return view('certificados.php');
+});
+
+Route::get('/bootstrap', function () {
+    return view('certificados.bootstrap');
+});
+
+Route::get('/html', function () {
+    return view('certificados.html');
+});
+
+Route::get('/java', function () {
+    return view('certificados.java');
+});
+
+Route::get('/java', function () {
+    return view('certificados.java');
+});
+
+Route::get('/java', function () {
+    return view('certificados.java');
+});
+
+Route::get('/java', function () {
+    return view('certificados.java');
+});
+
+Route::get('/java', function () {
+    return view('certificados.java');
+});
